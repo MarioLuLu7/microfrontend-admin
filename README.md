@@ -36,7 +36,7 @@ open `http://localhost:8080/`
 ## Add Model
 
 添加模块：
-打开添加模块页面 ![add model](https://raw.githubusercontent.com/MarioLuLu7/microfrontend-admin/master/readmeImg/img1.png)
+打开添加模块页面 ![按钮](https://github.com/MarioLuLu7/microfrontend-admin/raw/master/readmeImg/img1.png)
 
 添加模块
 
@@ -48,9 +48,9 @@ open `http://localhost:8080/`
 
 ```
 
-![add model](https://raw.githubusercontent.com/MarioLuLu7/microfrontend-admin/master/readmeImg/img2.png)
+![添加参数](https://github.com/MarioLuLu7/microfrontend-admin/raw/master/readmeImg/img2.png)
 
-![add model](https://raw.githubusercontent.com/MarioLuLu7/microfrontend-admin/master/readmeImg/img3.png)
+![添加参数](https://github.com/MarioLuLu7/microfrontend-admin/raw/master/readmeImg/img3.png)
 
 完成后就可以使用啦
 
