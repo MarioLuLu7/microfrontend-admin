@@ -25,4 +25,4 @@ open `http://localhost:8080/`
 ### add model
 
 添加模块：
-打开添加模块页面(https://github.com/MarioLuLu7/microfrontend-admin/raw/master/readImg/img1.png)
+打开添加模块页面![add model](http://...)(https://github.com/MarioLuLu7/microfrontend-admin/tree/master/readImg/img1.png)
