@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>bigbighead</title>
+  <!-- <script type="systemjs-importmap">
+      {
+        "imports": {
+          "single-spa": "https://cdnjs.cloudflare.com/ajax/libs/single-spa/4.3.7/system/single-spa.min.js"
+        }
+      }
+    </script> -->
+  <!-- 其它js -->
+  <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
+  <script src="https://cdn.bootcss.com/vuex/3.1.0/vuex.min.js"></script>
+  <script src="https://cdn.bootcss.com/vue-router/3.0.6/vue-router.min.js"></script>
+  <script src="https://cdn.bootcss.com/vuex/3.1.1/vuex.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://unpkg.com/view-design/dist/styles/iview.css" />
+  <script src="http://unpkg.com/view-design/dist/iview.min.js"></script>
+  <!-- systemjs -->
+  <script src="https://cdn.bootcss.com/systemjs/6.1.1/system.js"></script>
+  <script src="https://cdn.bootcss.com/systemjs/6.1.1/extras/amd.js"></script>
+  <script src="https://cdn.bootcss.com/systemjs/6.1.1/extras/named-exports.js"></script>
+  <script src="https://cdn.bootcss.com/systemjs/6.1.1/extras/use-default.js"></script>
+
+  <script>
+    window.Router = VueRouter
+    Vue.use(Router)
+    Vue.use(Vuex)
+  </script>
+  <script src="./spa.setting.js"></script>
+</head>
+
+<body>
+  <!-- Load the application -->
+
+  <div id="app"></div>
+</body>
+
+</html>
