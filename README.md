@@ -144,3 +144,11 @@ this.$store.state[模块入口名][方法名]()
 eg.
 this.$store.state.singleApp1.setData(666)
 ```
+
+# Build
+
+```
+yarn build
+```
+
+进入各个项目 build 完成之后，项目下的 dist 文件夹即是各个项目所需部署的根目录文件夹，主项目与普通的 spa 项目部署方式并无区别，子项目与其不同的是最终暴露出来的入口文件不是 index.html 而是 app.js 文件（具体查看子项目下的 vue.cong.js）,然后各个项目分别部署即可。
