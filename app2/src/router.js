@@ -2,6 +2,14 @@ import {
   baseRouter
 } from './config/config'
 
+import Vue from "vue";
+import Router from "vue-router";
+if (!window.Router) {
+  Vue.use(Router);
+} else {
+  Router = window.Router
+}
+
 const routes = [{
     path: '',
     name: 'home',

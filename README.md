@@ -152,3 +152,7 @@ yarn build
 ```
 
 进入各个项目 build 完成之后，项目下的 dist 文件夹即是各个项目所需部署的根目录文件夹，主项目与普通的 spa 项目部署方式并无区别，子项目与其不同的是最终暴露出来的入口文件不是 index.html 而是 app.js 文件（具体查看子项目下的 vue.cong.js）,然后各个项目分别部署即可。
+
+# Other
+
+在开发环境时，考虑到子项目不与 baseapp 交互时，不能运行子项目。可以控制 `src/config/config.js` 中 `outputHtml` 为 `true` 即可使其单独运行（此时不能进行微服务化）。
