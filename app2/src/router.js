@@ -2,13 +2,12 @@ import {
   baseRouter
 } from './config/config'
 
-import Vue from "vue";
-import Router from "vue-router";
+const Vue = window.Vue || require('vue')
+const Router = window.Router || require('vue-router')
 if (!window.Router) {
-  Vue.use(Router);
-} else {
-  Router = window.Router
+  Vue.use(Router)
 }
+
 
 const routes = [{
     path: '',

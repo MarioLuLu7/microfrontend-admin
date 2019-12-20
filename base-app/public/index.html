@@ -27,8 +27,10 @@
 
   <script>
     window.Router = VueRouter
-    Vue.use(Router)
-    Vue.use(Vuex)
+    window.Vue = Vue
+    window.Vuex = Vuex
+    window.Vue.use(window.Router)
+    window.Vue.use(window.Vuex)
   </script>
   <script src="./spa.setting.js"></script>
 </head>
