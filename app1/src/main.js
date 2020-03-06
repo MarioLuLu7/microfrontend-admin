@@ -1,4 +1,5 @@
-const Vue = window.Vue || require('vue')
+import VueI from 'vue'
+const Vue = window.Vue || VueI
 import App from './App.vue';
 import router from './router';
 import Store from './store'

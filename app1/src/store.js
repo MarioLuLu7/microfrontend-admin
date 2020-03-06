@@ -1,5 +1,7 @@
-const Vue = window.Vue || require('vue')
-const Vuex = window.Vuex || require('vuex')
+import VueI from 'vue'
+import VuexI from 'vuex'
+const Vue = window.Vue || VueI
+const Vuex = window.Vuex || VuexI
 if (!window.Vuex) {
   Vue.use(Vuex)
 }

@@ -2,8 +2,10 @@ import {
   baseRouter
 } from './config/config'
 
-const Vue = window.Vue || require('vue')
-const Router = window.Router || require('vue-router')
+import VueI from 'vue'
+import RouterI from 'vue-router'
+const Vue = window.Vue || VueI
+const Router = window.Router || RouterI
 if (!window.Router) {
   Vue.use(Router)
 }
