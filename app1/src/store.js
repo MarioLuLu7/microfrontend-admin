@@ -1,8 +1,6 @@
-import VueI from 'vue'
-import VuexI from 'vuex'
-const Vue = window.Vue || VueI
-const Vuex = window.Vuex || VuexI
+const Vuex = window.Vuex || require('vuex').default
 if (!window.Vuex) {
+  const Vue = require('vue').default
   Vue.use(Vuex)
 }
 
