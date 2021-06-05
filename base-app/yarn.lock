@@ -1352,8 +1352,8 @@ async-foreach@^0.1.3:
 
 async-limiter@~1.0.0:
   version "1.0.1"
-  resolved "https://registry.npm.taobao.org/async-limiter/download/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
-  integrity sha1-3TeelPDbgxCwgpH51kwyCXZmF/0=
+  resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
+  integrity sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
 
 async@^1.5.2:
   version "1.5.2"
@@ -1395,7 +1395,7 @@ aws4@^1.8.0:
 
 axios@^0.19.0:
   version "0.19.0"
-  resolved "http://r.cnpmjs.org/axios/download/axios-0.19.0.tgz#8e09bff3d9122e133f7b8101c8fbdd00ed3d2ab8"
+  resolved "https://r.cnpmjs.org/axios/download/axios-0.19.0.tgz#8e09bff3d9122e133f7b8101c8fbdd00ed3d2ab8"
   integrity sha1-jgm/89kSLhM/e4EByPvdAO09Krg=
   dependencies:
     follow-redirects "1.5.10"
@@ -2509,7 +2509,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
 
 debug@=3.1.0:
   version "3.1.0"
-  resolved "http://r.cnpmjs.org/debug/download/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  resolved "https://r.cnpmjs.org/debug/download/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   integrity sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=
   dependencies:
     ms "2.0.0"
@@ -3247,7 +3247,7 @@ flush-write-stream@^1.0.0:
 
 follow-redirects@1.5.10:
   version "1.5.10"
-  resolved "http://r.cnpmjs.org/follow-redirects/download/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  resolved "https://r.cnpmjs.org/follow-redirects/download/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
   integrity sha1-e3qfmuov3/NnhqlP9kPtB/T/Xio=
   dependencies:
     debug "=3.1.0"
@@ -4018,7 +4018,7 @@ is-buffer@^1.1.5:
 
 is-buffer@^2.0.2:
   version "2.0.4"
-  resolved "http://r.cnpmjs.org/is-buffer/download/is-buffer-2.0.4.tgz#3e572f23c8411a5cfd9557c849e3665e0b290623"
+  resolved "https://r.cnpmjs.org/is-buffer/download/is-buffer-2.0.4.tgz#3e572f23c8411a5cfd9557c849e3665e0b290623"
   integrity sha1-PlcvI8hBGlz9lVfISeNmXgspBiM=
 
 is-callable@^1.1.4:
@@ -4268,7 +4268,7 @@ js-base64@^2.1.8:
 
 js-cookie@^2.2.1:
   version "2.2.1"
-  resolved "http://r.cnpmjs.org/js-cookie/download/js-cookie-2.2.1.tgz#69e106dc5d5806894562902aa5baec3744e9b2b8"
+  resolved "https://r.cnpmjs.org/js-cookie/download/js-cookie-2.2.1.tgz#69e106dc5d5806894562902aa5baec3744e9b2b8"
   integrity sha1-aeEG3F1YBolFYpAqpbrsN0Tpsrg=
 
 js-levenshtein@^1.1.3:
@@ -6775,7 +6775,7 @@ simple-swizzle@^0.2.2:
 
 single-spa@^4.4.1:
   version "4.4.1"
-  resolved "http://r.cnpmjs.org/single-spa/download/single-spa-4.4.1.tgz#660a0e5f93f7e7d06fc40e2b126b81102f0741af"
+  resolved "https://r.cnpmjs.org/single-spa/download/single-spa-4.4.1.tgz#660a0e5f93f7e7d06fc40e2b126b81102f0741af"
   integrity sha1-ZgoOX5P359BvxA4rEmuBEC8HQa8=
 
 slash@^1.0.0:
@@ -7678,7 +7678,7 @@ vue-loader@^15.7.0:
 
 vue-navigation@^1.1.4:
   version "1.1.4"
-  resolved "http://r.cnpmjs.org/vue-navigation/download/vue-navigation-1.1.4.tgz#be990190624647daa34b8cd525fad4fb6d472542"
+  resolved "https://r.cnpmjs.org/vue-navigation/download/vue-navigation-1.1.4.tgz#be990190624647daa34b8cd525fad4fb6d472542"
   integrity sha1-vpkBkGJGR9qjS4zVJfrU+21HJUI=
 
 vue-router@^3.0.3:
@@ -7944,9 +7944,9 @@ wrappy@1:
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
 ws@^6.0.0, ws@^6.2.1:
-  version "6.2.1"
-  resolved "https://registry.npm.taobao.org/ws/download/ws-6.2.1.tgz#442fdf0a47ed64f59b6a5d8ff130f4748ed524fb"
-  integrity sha1-RC/fCkftZPWbal2P8TD0dI7VJPs=
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.2.tgz#dd5cdbd57a9979916097652d78f1cc5faea0c32e"
+  integrity sha512-zmhltoSR8u1cnDsD43TX59mzoMZsLKqUweyYBAIvTngR3shc0W6aOZylZmq/7hqyVxPdi+5Ud2QInblgyE72fw==
   dependencies:
     async-limiter "~1.0.0"
 
